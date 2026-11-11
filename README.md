@@ -44,20 +44,25 @@ Python connects to the MySQL database and automatically generates:
 
 ## Project Structure
 ```text
-ecommerce-analytics/
+Ecommerce-Sales-Analytics/
 │
 ├── Dataset/
+│   ├── README.md
 │   ├── Online Retail.xlsx
-│   └── online_retail_cleaned.csv
-├── SQL/
-│   └── ecommerce_analysis.sql
+│   └── online_retail_sample.csv
 │
 ├── Python/
+│   ├── README.md
 │   ├── data_inspection.py
 │   ├── import_to_mysql.py
 │   └── ecommerce_analysis.py
 │
+├── SQL/
+│   ├── README.md
+│   └── ecommerce_analysis.sql
+│
 ├── Reports/
+│   ├── README.md
 │   ├── monthly_sales_report.csv
 │   ├── monthly_sales_trend.png
 │   ├── country_sales_report.csv
