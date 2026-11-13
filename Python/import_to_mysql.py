@@ -11,7 +11,7 @@ DB_PORT = 3306
 DB_NAME = "ecommerce_analytics"
 
 # CSV file location
-CSV_FILE = "../Dataset/online_retail_cleaned.csv"
+CSV_FILE = "../Dataset/online_retail_sample.csv"
 
 # Connect to MySQL
 connection_url = URL.create(
