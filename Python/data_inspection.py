@@ -1,7 +1,7 @@
 
 import pandas as pd
 
-file_path = "../Dataset/online_retail_cleaned.csv"
+file_path = "../Dataset/online_retail_sample.csv"
 df = pd.read_csv(file_path, parse_dates=["InvoiceDate"])
 
 print("CLEANED DATASET SUMMARY")
